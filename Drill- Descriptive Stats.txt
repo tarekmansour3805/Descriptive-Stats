@@ -1,0 +1,6 @@
+import numpy as np
+import matplotlib.pyplot as plt
+%matplotlib inline
+n, p = 10 , .5
+binomialvar = np.random.binomial(n,p, 100)
+plt.hist(binomialvar)
